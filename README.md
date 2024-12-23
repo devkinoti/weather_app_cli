@@ -92,37 +92,46 @@ Humidity: 65%
 Weather: Clear sky
 ```
 
-Error Handling
+### Error Handling
 Displays an error message if the city is not found:
-javascript
-Copy code
+```
 Error: City not found. Please check the city name and try again.
+```
+
 Handles API issues like invalid API key or rate limits:
-vbnet
-Copy code
+```
 Error: Unable to connect to the weather service. Please try again later.
-Future Enhancements
-Add support for fetching weather for multiple cities in a single command.
-Include a 7-day weather forecast option.
-Provide localization options for weather descriptions.
-Contribution
-Fork the repository.
-Create a feature branch:
-bash
-Copy code
+```
+
+### Future Enhancements
+- Add support for fetching weather for multiple cities in a single command.
+- Include a 7-day weather forecast option.
+- Provide localization options for weather descriptions.
+
+### Contribution
+- Fork the repository.
+- Create a feature branch:
+
+```
 git checkout -b feature-name
+```
+
 Commit your changes:
-bash
-Copy code
+```
 git commit -m "Description of changes"
+```
+
 Push the branch:
-bash
-Copy code
+```
 git push origin feature-name
+```
+
 Create a pull request.
-License
+
+---
+
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Author
 Chris Kinoti
-For questions or feedback, reach out at: devkinoti@example.com
